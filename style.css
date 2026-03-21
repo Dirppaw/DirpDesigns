@@ -1,0 +1,725 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+nav ul li {
+   margin: .5rem 1rem .5rem;
+	list-style: none;
+    color:  rgb(113 80 55);
+    font-size: 1.2rem;
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .05rem;
+	}
+
+    h1 {
+        max-width: 10rem;
+        /* width: 10em; */
+        margin-bottom: 2rem;
+    }
+
+    a:visited {
+        color: rgb(209 177 109);
+        padding: .5rem .5rem .5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color:rgb(113 80 55);
+        font-family: "catalpa", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+
+div.container, div.home-container, div.photo-container,  div.commissions-container{
+    /* background-color: #ffffff; */
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h1 {
+	font-size: 3em;
+	width: 100;
+    color:  rgb(109 79 55);
+	margin: .5rem 1rem .5rem;
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	}
+
+h2, h3, h4 {
+	font-weight: bold;
+    color:  rgb(109 79 55);
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	}
+
+h2, h3, h4, p {
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0rem .5rem .5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h2 p {
+	font-size: 3.5rem;
+	margin: 3rem 0rem .5rem;
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	}
+	
+h3 p {
+	font-size: 1.5em;
+    margin: .5rem 0rem .5rem;
+    color: rgb(109 79 55);
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h4 p {
+	font-size: 1.1em;
+    margin: 0rem 0rem .5rem;
+    border-top: 3px solid rgb(109 79 55);
+    margin-top: .5rem;
+}
+
+p {
+	font-size: 1.2em;
+	margin: 0.5rem .5rem 0.5rem;
+    color: rgb(109 79 55);
+    font-family: "proforma", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+footer {
+    color:  rgb(241 226 196);
+    background-color: rgb(109 79 55);
+    /* margin: 2em 0em 0em; */
+    box-sizing: border-box;
+    padding: .5rem 0rem .5rem;
+}
+footer p {
+    color: rgb(241 226 196);
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    word-spacing: .2rem;
+    letter-spacing: .1rem;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(252, 243, 228);
+}
+
+figcaption {
+    margin: .5em 0em 0em;
+    margin: .2rem .5rem 1em;
+    color: rgb(209 177 109);
+    font-family: "proforma", serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+aside {
+   /*  background-color: #f18557; */
+    padding: 0em;
+}
+
+aside p {
+    color: rgb(109 79 55);
+}
+
+section.tertiary p {
+    color: rgb(109 79 55);
+}
+
+.price {
+    color: rgb(209 177 109);
+}
+
+
+
+/*------------------------------------------------------*/
+
+div.photo-container {
+   
+body {
+    font-family: sans-serif;
+	line-height: 1.4em;
+	color: rgb(109 79 55);
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+	line-height: 1.4em;
+	color: rgb(109 79 55);
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: rgb(109 79 55);
+}
+
+img {
+	width: 100%;
+}
+
+
+div.photo-container {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+                    /* ***************** */
+main {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(80% + 3rem);
+}
+
+                    /* ***************** */
+
+figure{
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+figcaption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0;
+    color: rgb(209 177 109);
+}
+
+
+nav {
+    display: flex;
+    flex: wrap;
+    grid-template-columns: 0.5rem;
+    grid-gap: 0.2em;
+}
+
+
+input {
+    display: none;
+}
+}
+
+
+/*------------------------------------------------------*/
+
+
+div.commissions-container {
+    
+     body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: rgb(109 79 55);
+	box-sizing: border-box;
+	}
+
+    body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: rgb(109 79 55);
+	box-sizing: border-box;
+	}
+
+    h1, h2, h3, h4 {
+        color: rgb(109 79 55);
+        font-family: "catalpa", sans-serif;
+    }
+
+    p {
+        font-family: "proforma", serif;
+    }
+	
+div.commissions-container {
+        max-width: 40em;
+        margin: 1em;
+        padding: 1em;
+} 
+    /*-----------------------------***/
+.commission-list {
+    margin-left: 1.5rem;
+    font-family: sans-serif;
+	line-height: 1.4em;
+	color: rgb(109 79 55);
+}
+
+.commission-list li {
+    list-style-type: disc;
+    margin-bottom: .8em;
+}
+
+.list {
+    border-bottom: 3px solid rgb(109 79 55);
+}
+
+    /*-----------------------------***/
+
+section.subscribe ul {
+	padding-left: 0px;
+    color: rgb(109 79 55);
+}
+
+section.subscribe ul li{
+	flex: 1 0 15em;
+} 
+
+
+
+ul li{
+	list-style-type: none;
+	padding: 0em;
+    color: rgb(109 79 55);
+}
+
+section {
+    /* background: #eee; */
+    padding: 1em;
+    margin-bottom: 1em;
+    color: rgb(109 79 55);
+}
+
+section p {
+	margin-top: 0;
+    color: rgb(109 79 55);
+}
+
+section.subscribe ul{
+	margin: .5rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 3 0 100%;
+}
+
+textarea {
+	box-sizing: border-box;
+	display: 100%;
+	width: 26.5em; 
+	height: 6em;
+	padding: 0.4em;
+	font-family: sans-serif;
+	color: rgb(109 79 55);
+	}
+
+    button {
+        /* background-color: #f18557; */
+        color: rgb(113 80 55);
+        font-family: "catalpa", sans-serif;
+    }
+
+div.examples {
+    display: flex;           /* makes children line up in a row */
+    gap: .5rem;               /* space between figures */
+    flex-wrap: wrap;         /* allows wrapping if viewport is too small */
+    align-items: flex-start; /* optional: aligns images at the top */
+}
+
+div.examples figure {
+    width: 1.5in;
+    height: 1.5in;
+    margin: 0;               /* remove default figure spacing */
+}
+
+div.examples figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       /* fills square without distortion */
+}
+}
+
+/*------------------------------------------------------*/
+
+
+@media only screen and (min-width: 60em) {
+
+div.home-container{
+    max-width: 80em;
+    padding: 0 1em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1em; 
+    background-color: rgb(252, 243, 228);
+}
+
+
+div.container{
+    max-width: 60em;
+    padding: 0 1em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1em;
+}
+
+div.container aside{
+margin-top: 0;
+padding: 0;
+}
+
+
+header, footer {
+    grid-column: 1/3;
+} 
+
+div.home-container main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+} 
+
+div.home-container aside{
+background: none;
+padding: 0;
+}
+
+.secondary {
+    margin-top: 22.5rem;
+}
+
+.tertiary {
+    margin-top: 18.8rem;      /* ----------- */
+}
+
+/*------------------------------------------------------*/
+
+section.portfolio {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+}
+
+section.portfolio a {
+    display: flex;
+    flex: 1 0 12em;
+    flex-direction: column;
+}
+
+section.portfolio a h2 {
+    flex: 0 0 1em;
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+section.portfolio h3 p {
+ color: rgb(209 177 109);
+}
+
+section.portfolio a p {
+    flex: 0 0 4em;
+    color: rgb(109 79 55);
+}
+
+
+section.portfolio a p, h2, h3, h4 {
+    font-family: "catalpa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/*------------------------------------------------------*/
+
+
+section.secondary {
+    display: block; /* or remove this rule entirely */
+}
+
+section.secondary figure {
+    margin: 0;
+}
+
+section.secondary a h2 {
+    flex: 0 0 1em;
+}
+
+section.secondary a p {
+    flex: 0 0 4em;
+    color: rgb(109 79 55);
+}
+
+}
+
+
+/*------------------------------------------------------*/
+
+
+/* Gallery row */
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start; /* keeps row aligned at top */
+}
+
+/* Hide checkboxes */
+.image-container input[type="checkbox"] {
+  display: none;
+}
+
+/* Make container a column: image + caption stack */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: 2in; /* square thumbnails width */
+}
+
+/* Label as clickable container */
+.image-container label {
+  display: block;
+  cursor: pointer;
+  width: 100%;       /* fill container width */
+  height: 2in;       /* fixed thumbnail height */
+  overflow: hidden;  /* crop image for gallery square */
+  position: relative; /* needed for absolute zoom */
+}
+
+/* The image inside label fills the square normally */
+.image-container label img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* fill square without distortion */
+  transition: 0.3s ease; /* keep hover zoom */
+}
+
+/* Hover zoom effect */
+.image-container label:hover img {
+  transform: scale(1.05);
+}
+
+/* Captions under image */
+.image-container figcaption {
+  display: block;
+  width: 100%;            /* match image width */
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "proforma", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2em;
+  color: rgb(209 177 109);
+  margin: 0.2rem 0 0;
+  opacity: 0;             /* hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+/* Show caption on hover of container */
+.image-container:hover figcaption {
+  opacity: 1;             /* visible on hover */
+}
+
+/* Click-to-zoom image */
+.image-container input[type="checkbox"]:checked + label img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: auto;             /* maintain original aspect ratio */
+  height: auto;
+  max-width: 90vw;         /* responsive for viewport */
+  max-height: 90vh;
+  transform: translate(-50%, -50%) scale(1); /* center on screen */
+  z-index: 1000;
+  transition: none;
+}
+
+/* Optional dim background when zoomed */
+.image-container input[type="checkbox"]:checked + label::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 900;
+}
+
+/* Hide caption when zoomed */
+.image-container input[type="checkbox"]:checked ~ figcaption {
+  display: none;
+}
+
+
+/*------------------------------------------------------*/
+
+@media screen and (prefers-color-scheme: dark) {
+
+div.container, div.home-container, div.photo-container,  div.commissions-container{
+    background-color: #232627;
+}
+
+h1 {  
+    background-image: url("../Images/Drip_Wings.svg");  
+    background-repeat: no-repeat;  
+    background-size: contain;  
+
+    color:  #fff4e5;
+    } 
+
+h1 img {  
+    opacity: 0;  
+    }  
+
+h2, h3, h4 p {
+    color:  rgb(212 212 212);
+}
+h3 {
+    color: rgb(212 212 212)
+}
+
+h3 p {
+    color: rgb(212 212 212);
+}
+p {
+    color: rgb(140, 140, 140);
+}
+
+h4 {
+    border-top: 3px solid rgb(140, 140, 140);
+}
+
+figcaption {
+    color: rgb(140, 140, 140);
+}
+
+
+aside p {
+    color: rgb(140, 140, 140)
+}
+
+section.tertiary p {
+    color: rgb(140, 140, 140);
+}
+
+div.photo-container {
+	color: rgb(140, 140, 140);
+}
+
+html, body{
+    background: #232627;
+    color: #232627;
+}
+
+section.subscribe h2{
+    color: #fff4e5;
+}
+
+div.commissions-container h2{
+    color: #fff4e5;
+}
+
+nav ul li {
+    color:  rgb(212 212 212);
+	}
+
+a:visited {
+     color: rgb(140, 140, 140);
+    }
+
+ a {
+    color:rgb(140, 140, 140);
+    }
+
+section.secondary a p {
+    color: rgb(140, 140, 140);
+}
+
+div.container footer {
+    background-color: rgb(140, 140, 140);
+}
+
+div.container footer p {
+    color: #232627;
+}
+
+div.photo-container footer {
+    background-color: rgb(140, 140, 140);
+}
+
+div.home-container footer {
+    background-color: rgb(140, 140, 140);
+}
+
+div.home-container footer p {
+    color: rgb(212 212 212);
+}
+
+div.home-container h2 p {
+    color: rgb(212 212 212);
+}
+
+div.home-container h3 p {
+    color: rgb(212 212 212);
+}
+
+div.photo-container footer p {
+    color: rgb(212 212 212);
+}
+
+div.commissions-container footer {
+    background-color: rgb(140, 140, 140);
+}
+
+div.commissions-container footer p{
+    color: rgb(212 212 212);
+}
+
+
+.commissions-container h4 {
+    color: rgb(140, 140, 140);
+}
+
+div.commissions-container h4 {
+    color: rgb(140, 140, 140);
+}
+
+.price {
+    color: rgb(173 252 79);
+}
+
+ul.commission-list li {
+    color: rgb(140, 140, 140)!important;
+}
+
+.list {
+    border-bottom: 3px solid rgb(212 212 212)!important;;
+}
+
+.image-container figcaption {
+    color: rgb(212 212 212);
+}
+
+}
